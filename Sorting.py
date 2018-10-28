@@ -2,7 +2,7 @@ number=list()
 a=int(input("Enter the total no of inputs "))
 for x in range(a):
 	n=input("Enter a number: ")
-	number.append(int(n))
+	number.append(int(n))//enter the number
 print("Array :",number)
 for i in range(a):
 	for j in range(i+1,a):
