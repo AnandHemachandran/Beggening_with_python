@@ -8,7 +8,7 @@ print("Arrray",string)
 b=""
 for y in range(a):
 	b=b+string[y]
-	if((y+1)%z==0):
+	if((y+1)%z==0)://palindrome
 		print("Original word : ",b)
 		c=b[::-1]
 		print("Reversed word : ",c)	
